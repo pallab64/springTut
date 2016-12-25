@@ -1,0 +1,19 @@
+   
+    <beans  
+        xmlns="http://www.springframework.org/schema/beans"  
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+        xmlns:p="http://www.springframework.org/schema/p"  
+        xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+      
+
+        <bean id="a" class="com.spring_1.Answer">
+        <property name="city" value="Java has Different Framework"></property>
+        </bean>  
+    <bean id="q" class="com.spring_1.Question" autowire="byType" >  
+
+
+    </bean>   
+     
+      
+    </beans>  
